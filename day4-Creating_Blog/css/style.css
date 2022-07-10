@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0%;
+    font-family: Poppins, sans-serif;
+}
+
+body{
+    background-color: rgb(223, 223, 224);
+    width: 100%;
+}
+
+nav{
+    height: 8vh;
+    background-color: whitesmoke;
+    display: flex;
+}
+
+.nav-left{
+    display: flex;
+    padding-left: 100px;
+    flex: 50%;
+    align-items: center;
+}
+
+.nav-left li{
+    display: inline;
+    padding: 10px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+nav .nav-des a:hover{
+    /* font-size: x-large; */
+    color: rgb(99, 0, 198);
+    text-shadow: 0px 0px 18px rgb(99, 0, 198);
+}
+
+.home{
+    font-weight: bolder;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+
+.nav-right li{
+    display: inline;
+    padding-right: 100px;
+}
+
+.nav-right a{
+    background-color: rgb(37, 37, 63);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.nav-right a:hover{
+    background-color: rgb(99, 0, 198);
+    color: rgb(255, 255, 255);
+    transition: .3s;
+    box-shadow: 0px 0px 30px rgb(99, 0, 198);
+}
+
+.cards{
+    box-shadow: 0px 0px 30px rgb(119, 119, 119);
+    padding: 60px 75px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width: 950px;
+    margin: 80px auto;
+}
+
+.container-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.container-content .left-side{
+    flex: 60%;
+}
+
+.main{
+    margin-top: 30px;
+}
+.main h2{
+    margin-bottom: 12px;
+    font-weight: 1000;
+}
+.paragraf{
+    margin-bottom: 30px;
+    color: rgb(81, 81, 81);
+    text-align: justify;
+}
+
+.main button{
+    color: rgb(205, 204, 204);
+    background-color: black;
+    width: 110px;
+    padding: 6px;
+    border-radius: 30px;
+    font-size: 17px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px black;
+}
+.main button:hover{
+    background-color: white;
+    color: black;
+    transition: .3s;
+    box-shadow: 0px 0px 5px rgb(171, 171, 171);
+}
+
+.cv{
+    margin-top: 20px;
+}
+.cv a{
+    color: rgb(81, 81, 81);
+    text-decoration: none;
+}
+
+.cv img{
+    width: 20px;
+    margin-left: 10px;
+}
+.cv img:hover{
+    width: 25px;
+    transition: .3s;
+}
+
+.sosmed{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sosmed a{
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    margin: 8px;
+    padding: 8px;
+    border: 0px solid rgb(0, 0, 0);
+    border-radius: 100%;
+    background: rgb(0, 0, 0);
+    box-shadow: 0px 0px 5px rgb(104, 104, 104);
+}
+
+.sosmed a:hover{
+    transition: .3s;
+    border: 0px solid white;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 12px rgb(104, 104, 104);
+}
+
+.container-content .right-side{
+    flex: 40%;
+}
+
+.right-side .main-card {
+    /* width: 100%; */
+}
+
+.main-card{
+    text-align: center;
+    margin-left: 100px;
+    width: 70%;
+    /* background-color: red; */
+    box-shadow: 0px 0px 20px rgb(105, 105, 105);
+    border-radius: 5px;
+    padding-bottom: 11px;
+    justify-content: flex-end;
+}
+.image img{
+    width: 100%;
+    height: 350px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    /* justify-content: flex-end; */
+    /* cursor: default; */
+}
+.name{
+    text-align: center;
+    margin-top: 11px;
+    font-family: Poppins, sans-serif;
+}
+.des{
+    text-align: center;
+    font-family: Poppins, sans-serif;
+}

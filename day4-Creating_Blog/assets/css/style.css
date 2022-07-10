@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+nav {
+    background-color: #f4f3f3;
+    height: 70px;
+    display: flex;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+}
+
+nav .left-side {
+    flex: 50%;
+    padding-left: 90px;
+}
+
+nav .right-side {
+    flex: 50%;
+    justify-content: flex-end;
+    padding-right: 90px;
+    margin-top: 80px;
+}
+
+nav ul {
+    list-style: none;
+    margin-left: 40px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 40px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+    font-weight: 700;
+}
+
+nav .right-side a {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    background-color: #000000;
+    padding: 8px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+
+.personal { 
+    margin-top: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container-content {
+    flex-direction: row;
+    width: 85%;
+    display: flex;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    border: 1px #4d4d4d;
+    box-shadow: 0px 10px 10px rgb(79, 79, 79);
+}
+
+.container-content .left {
+    flex: 60%;
+    padding-top: 32px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.container-content .left p {
+    text-align: justify;
+}
+
+.container-content .left .contact {
+    margin-top: 45px;
+    margin-bottom: 60px;
+}
+
+.contact p {
+padding-left: 32px;
+}
+
+.contact img {
+    width: 16px;
+}
+
+.left .contact a{
+    background-color: black;
+    color: #f4f3f3;
+    width: 137px;
+    height: 40px;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 8px 20px;
+}
+
+.sosmed {
+    margin-bottom: 20px;
+}
+
+.sosmed table td {
+    padding-right:20px ;
+}
+
+.sosmed td img{
+    width: 40px;
+}
+.container-content .right {
+    margin : 50px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px rgb(79, 79, 79);
+}
+
+.right img {
+    width: 380px;
+    border-radius: 10px;
+}
+
+.right h1{
+margin-bottom: 0px;
+text-align: center;
+}
+
+.right h4 {
+    margin-top: 0px;
+    text-align: center;
+}
+
+.container-content .sosmed i {
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+/* contact me */
+.contener {
+    width: 700px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.contener h1 {
+    margin-bottom: 70px;
+    margin-top: 70px;
+    padding-left: 250px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+    margin-bottom: 20px;
+    font-size: 20px; 
+    font-weight: 700;
+}
+
+.item-form {
+    margin-bottom: 20px
+}
+
+#name {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    background-color: #f3f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+#email{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    background-color: #f3f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    margin-top: 5px;
+            
+}
+
+#phone{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    background-color: #f3f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    margin-top: 5px;
+            
+}
+
+#subjectForm{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    background-color: #f3f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    margin-top: 5px;
+    
+            
+}
+
+#massage{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    background-color: #f3f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    margin-top: 5px;
+    resize: none;
+    height: 100px;
+}
+
+.contener button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    float: right;
+}
+/* project */
+
+.container-project {
+    background-color:rgb(223,223,224);
+}
+
+form {
+    width: 700px;
+    margin: auto;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+.container-project h1 {
+    margin-bottom: 70px;
+    margin-top: -10px;
+    padding-top: 100px;
+    padding-left: 250px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row-date{
+    display: flex;
+    flex-basis: 100%;
+    margin-bottom: 25px;
+}
+
+.row-date input {
+    border: 1px;
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px 0px 15px 10px;
+    box-shadow: 0px 0px 1px rgb(8, 8, 8);
+    font-size: 15px;
+    background-color:#f3f3f3;
+}
+
+.left-date{
+    flex: 50%;
+    margin-top: 10px;
+    font-weight: 700;
+    color: black;
+    margin-right: 10px;
+}
+.right-date{
+    flex: 50%;
+    margin-top: 10px;
+    font-weight: 700;
+    color: black;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+textarea{
+    resize: none;
+}
+
+#project-name {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    background-color: #f3f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+#description{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    background-color: #f3f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    margin-top: 5px;
+    resize: none;
+    height: 100px;
+}
+
+.head {
+    display: block;
+    margin-top: 15px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: -10px;
+}
+
+.check-tag{
+    display: flex;
+    flex-basis: 100%;
+}
+
+.check-tag label{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.left-check{
+    flex: 35%;
+    margin-left: 20px;
+}
+
+.right-check{
+    flex: 65%;
+}
+
+.upload-form label{
+    display: block;
+    margin-top: 15px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.upload-box{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    background-color: #f3f3f3;
+    width: 100%;
+}
+
+.button-submit{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.button-submit button{
+    background-color: rgb(37, 37, 63);
+    color: white;
+    padding: 7px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* buttom blog */
+.heading {
+    text-align: center;
+}
+
+.project-blog{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.post {
+    width : 250px;
+    height: fit-content;
+    border-radius: 15px;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    background-color: rgb(243, 243, 243);
+    margin-top: 30px;
+}
+
+.post img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.post h3{
+    margin-top: 3px;
+    font-weight: 800;
+    width: fit-content;
+}
+
+.post .duration{
+    margin-top: -18px;
+    font-size: 13px;
+    color: grey;
+}
+
+.desc p{
+    font-size: 12px;
+    height: 70px;
+    font-weight: 500;
+    text-justify: auto;
+    overflow: auto;
+}
+
+.icon-tech i{
+    font-size: 30px;
+    margin-right: 7px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    margin-top: -5px;
+}
+
+.btn-post{
+    display: flex;
+    flex-basis: 100%;
+}
+
+.edit-btn{
+    flex: 50%;
+    margin: 0px 5px;
+    padding: 3px 0px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(43, 29, 67);
+    cursor: pointer;
+    border: none;
+}
+
+.delete-btn {
+    flex: 50%;
+    margin: 0px 5px;
+    padding: 3px 0px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(176, 0, 0);
+    cursor: pointer;
+    border: none;
+}
+
+.delete-btn:hover{
+    background-color: orangered;
+    color: white;
+}
+.edit-btn:hover {
+    background-color: rgb(117, 44, 189);
+    color: white;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <title>My Project Page</title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="left-side">
+        <a href="index.html">
+          <img src="assets/images/logo.png" alt="" />
+        </a>
+        <ul>
+          <li>
+            <a class="active" href="index.html">Home </a>
+          </li>
+          <li>
+            <a href="my-project.html">My Project </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="right-side">
+        <a href="contact-me.html">Contact Me</a>
+      </div>
+    </nav>
+
+    <div class="container-project">
+      <!--  -->
+      <form
+        action=""
+        id="add-blog__form"
+        autocomplete="off"
+        onsubmit="addBlog(event)"
+      >
+        <h1>ADD MY PROJECT</h1>
+        <div class="item-form">
+          <label for="project-name">Project Name</label>
+          <input
+            id="project-name"
+            type="text"
+            required
+            placeholder="Enter your project name"
+          />
+        </div>
+
+        <div class="row-date">
+          <div class="left-date">
+            <label for="start-date">Start Date</label>
+            <input type="date" id="start-date" />
+          </div>
+          <div class="right-date">
+            <label for="end-date">End Date</label>
+            <input type="date" id="end-date" />
+          </div>
+        </div>
+
+        <div class="item-form">
+          <label for="description">Description </label>
+          <textarea
+            id="description"
+            rows="10"
+            cols="30"
+            placeholder="Job Description"
+          ></textarea>
+        </div>
+
+        <!-- my project -->
+        <label for="tech" class="head">Technologies</label><br />
+        <div class="check-tag">
+          <div class="left-check">
+            <input type="checkbox" id="nodejs" name="tech1" />
+            <label for="tech1">Node js</label><br />
+            <input type="checkbox" id="reactjs" name="tech2" />
+            <label for="tech2">React js</label>
+          </div>
+          <div class="right-check">
+            <input type="checkbox" id="next js" name="tech3" />
+            <label for="tech3">Next js</label><br />
+            <input type="checkbox" id="typescript" name="tech4" />
+            <label for="tech4">Typescript</label>
+          </div>
+        </div>
+
+        <div class="upload-form">
+          <label for="">Upload Image</label>
+          <input type="file" class="upload-box" id="upload" />
+        </div>
+
+        <div class="button-submit">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+
+    <div id="container-blog">
+      <div class="content-blog">
+        <h1 class="heading">My Project</h1>
+
+        <div id="project-blog" class="project-blog">
+          <!-- <div class="post">
+            <img src="assets/images/nft.jpg" alt="" />
+            <h3>DumbWays Mobile App</h3>
+            <p class="duration">duration :</p>
+            <div class="desc">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div id="icon-tech" class="icon-tech">
+              <i class="fa-brands fa-node-js" title="node.js"></i>
+              <i class="fa-brands fa-react" title="react.js"></i>
+              <i class="fa-regular fa-clock" title="moment.js"></i>
+              <i class="fa-brands fa-laravel" title="laravel"></i>
+            </div>
+            <div class="btn-post">
+              <button type="button" class="edit-btn">edit</button>
+              <button type="button" class="delete-btn">delete</button>
+            </div>
+          </div> -->
+          
+      </div>
+    </div>
+  </body>
+  <script src="assets/js/project.js"></script>
+</html>

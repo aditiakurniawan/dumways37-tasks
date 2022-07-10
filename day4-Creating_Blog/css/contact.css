@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    margin: 0%;
+    background-color: rgb(223, 223, 224);
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    height: 8vh;
+    background-color: whitesmoke;
+    display: flex;
+}
+
+.nav-left{
+    display: flex;
+    padding-left: 100px;
+    flex: 50%;
+    align-items: center;
+}
+
+.nav-left li{
+    display: inline;
+    padding: 10px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+nav .nav-des a:hover{
+    /* font-size: x-large; */
+    color: rgb(99, 0, 198);
+    text-shadow: 0px 0px 18px rgb(99, 0, 198);
+}
+
+.home{
+    font-weight: bolder;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+
+.nav-right li{
+    display: inline;
+    padding-right: 100px;
+}
+
+.nav-right a{
+    background-color: rgb(37, 37, 63);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.nav-right a:hover{
+    background-color: rgb(99, 0, 198);
+    color: rgb(255, 255, 255);
+    transition: .3s;
+    box-shadow: 0px 0px 30px rgb(183, 111, 255);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.form-contact{
+    width: 450px;
+}
+
+.header{
+    text-align: center;
+}
+
+.form-tag label{
+    display: block;
+    margin-top: 15px;
+    font-weight: 700;
+    color: black;
+}
+
+.form-tag input, textarea, select{
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px 0;
+    box-shadow: 0px 0px 20px rgb(162, 162, 162);
+    padding-left: 10px;
+}
+
+textarea{
+    resize: none;
+}
+
+.btn-submit{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.btn-submit button{
+    background-color: rgb(37, 37, 63);
+    color: white;
+    padding: 5px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-submit button:hover{
+    background-color: rgb(99, 0, 198);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 7px 27px;
+    box-shadow: 0px 0px 30px rgb(183, 111, 255);
+}

@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    margin: 0%;
+    background-color: rgb(223, 223, 224);
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    height: 8vh;
+    background-color: whitesmoke;
+    display: flex
+}
+
+.nav-left{
+    display: flex;
+    padding-left: 100px;
+    flex: 50%;
+    align-items: center;
+}
+
+.nav-left li{
+    display: inline;
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+nav .nav-des a:hover{
+    /* font-size: x-large; */
+    color: rgb(99, 0, 198);
+    text-shadow: 0px 0px 18px rgb(99, 0, 198);
+}
+
+.home{
+    font-weight: bolder;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+
+.nav-right li{
+    display: inline;
+    padding-right: 100px;
+}
+
+.nav-right a{
+    background-color: rgb(37, 37, 63);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.nav-right a:hover{
+    background-color: rgb(99, 0, 198);
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    transition: .3s;
+    box-shadow: 0px 0px 30px rgb(183, 111, 255);
+}
+
+.container{
+    justify-content: center;
+    display: flex;
+}
+
+.project-form{
+    width: 800px;
+}
+
+.header{
+    text-align: center;
+    font-weight: 1000;
+}
+
+.form-tag label{
+    display: block;
+    margin-top: 15px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.form-tag input, textarea{
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px 0px 15px 10px;
+    box-shadow: 0px 0px 20px rgb(162, 162, 162);
+    font-size: 15px;
+}
+
+textarea{
+    resize: none;
+}
+
+.date-tag label {
+    margin-bottom: 20px;
+}
+
+.date-tag input {
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px 0px 15px 10px;
+    box-shadow: 0px 0px 20px rgb(162, 162, 162);
+    font-size: 15px;
+}
+
+.date-tag{
+    display: flex;
+    flex-basis: 100%;
+}
+
+.date-left{
+    flex: 50%;
+    margin-top: 10px;
+    font-weight: 700;
+    color: black;
+    margin-right: 10px;
+}
+.date-right{
+    flex: 50%;
+    margin-top: 10px;
+    font-weight: 700;
+    color: black;
+    margin-left: 12px;
+}
+
+.head {
+    display: block;
+    margin-top: 15px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: -10px;
+}
+
+.check-tag{
+    display: flex;
+    flex-basis: 100%;
+}
+
+.check-tag label{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.left-check{
+    flex: 35%;
+    margin-left: 20px;
+}
+
+.right-check{
+    flex: 65%;
+}
+
+.upload-form label{
+    display: block;
+    margin-top: 15px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.upload-box{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    background-color: white;
+    width: 100%;
+    outline: none;
+    box-shadow: 0px 0px 20px rgb(162, 162, 162);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+::-webkit-file-upload-button{
+    color: white;
+    background-color: rgb(26, 26, 34);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+::-webkit-file-upload-button:hover{
+    color: white;
+    background-color: rgb(99, 0, 198);
+}
+
+.preview {
+    width: 50%;
+    height: 20rem;
+    background: #cfcfcf;
+    margin: 10px 0;
+    border-radius: var(--border-radius);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.preview .polaroid{
+    font-size: 70px;
+}
+
+.img-preview {
+    width: 50%;
+    object-fit: fill;
+  }
+
+.btn-submit{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+
+.btn-submit button{
+    background-color: rgb(37, 37, 63);
+    color: white;
+    padding: 7px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-submit button:hover{
+    background-color: rgb(99, 0, 198);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 9px 32px;
+    box-shadow: 0px 0px 30px rgb(183, 111, 255);
+}
+
+#container-blog{
+    width: 100%;
+    margin: auto;
+    background: rgb(255, 255, 255);
+    min-height: fit-content;
+}
+
+.content-blog{
+    margin: auto;
+    width: 80%;
+    padding: 15px 0px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.project-blog{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.post {
+    width : 250px;
+    height: fit-content;
+    border-radius: 15px;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    background-color: rgb(243, 243, 243);
+    margin-top: 30px;
+}
+
+.post img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.post h3{
+    margin-top: 3px;
+    font-weight: 800;
+    width: fit-content;
+}
+
+.post .duration{
+    margin-top: -18px;
+    font-size: 13px;
+    color: grey;
+}
+
+.desc p{
+    font-size: 12px;
+    height: 70px;
+    font-weight: 500;
+    text-justify: auto;
+    overflow: auto;
+}
+
+.icon-tech i{
+    font-size: 30px;
+    margin-right: 7px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    margin-top: -5px;
+}
+
+.btn-post{
+    display: flex;
+    flex-basis: 100%;
+}
+
+.edit-btn{
+    flex: 50%;
+    margin: 0px 5px;
+    padding: 3px 0px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(43, 29, 67);
+    cursor: pointer;
+    border: none;
+}
+
+.delete-btn {
+    flex: 50%;
+    margin: 0px 5px;
+    padding: 3px 0px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(176, 0, 0);
+    cursor: pointer;
+    border: none;
+}
+
+.delete-btn:hover{
+    background-color: orangered;
+    color: white;
+}
+.edit-btn:hover {
+    background-color: rgb(117, 44, 189);
+    color: white;
+}
