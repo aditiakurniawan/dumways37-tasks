@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/style.css">
+    <script src="https://kit.fontawesome.com/22021f7c30.js" crossorigin="anonymous"></script>
+    <title>My Project</title>
+</head>
+<body>
+    <!-- NAV -->
+    <Nav>
+        <div class="right">
+            <h1><a href="index.html" class="LOGO">.BayuSITE</a></h1>
+            <ul>
+                <li><a href="index.html" class="home">Home</a></li>
+                <li><a href="myProject.html">myProject</a></li>
+            </ul>
+        </div>
+        <div class="left"> 
+            <a href="Form.html"><button class="btn-nav" type="button">Contact Me</button></a>
+        </div>
+    </Nav>
+    <!-- End Nav -->
+
+    <!-- FORM MyProject -->
+    <div class="myProject">
+        <h1 style="text-align: center;"> add My Project HERE </h1>
+        <form onsubmit="projectSubmit(event)">
+            <label for="projectName">Project Name</label>
+            <input type="text" id="projectName" class="projectName" id="title">
+            <div class="flexForm">
+                <label for="startDate" class="kiri">Start Date</label>
+                <label for="endDate" class="kanan">End Date</label><br>
+            </div>
+            <div class="flexForm">
+                <input type="date" name="" id="startDate" class="kiri">
+                <input type="date" name="" id="endDate" class="kanan">
+            </div>
+            <label for="desc">Description</label>
+            <textarea name="" id="desc" cols="30" rows="10" class="projectName"></textarea>
+            <label for="">Technology</label>
+            <div class="flexForm">
+                <div class="kiri">
+                    <input type="checkbox" id="js" value="js"><label for="js">Javascript</label>
+                </div>
+                <div class="kanan">
+                    <input type="checkbox" id="css" value="css"><label for="css">CSS 3</label>
+                </div>
+            </div>
+            <div class="flexForm">
+                <div class="kiri">
+                    <input type="checkbox" id="html" value="html"><label for="html">HTML 5</label>
+                </div>
+                <div class="kanan">
+                    <input type="checkbox" id="react" value="react"><label for="react">react JS</label>
+                </div>
+            </div>
+            <label for="upload">Upload Image</label>
+            <input type="file" id="imageUpload" class="projectName">
+            <div class="text-right">
+                <button type="submit" class="btn-project" id="btn-submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- End FORM myProject -->
+
+    <!-- content Project -->
+    <div class="bg">
+        <div class="contentProject">
+            <h1> My Project </h1>
+            <hr>
+            <div class="flexProject" id="contentProject">
+                <div class="post">
+                    <img src="Assets/img/project.jpg" alt="">
+                    <h3>Comic Platform</h3>
+                    <p class="duration">duration : ...</p>
+                    <div class="article"><p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia possimus nisi aliquid laborum. Consequuntur maiores facilis itaque nam adipisci laudantium?</p></div>
+                    <div id="icontech" class="icontech">
+                        <i class="fa-brands fa-js-square"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-react"></i>
+                    </div>
+                    <div class="flex-btn">
+                        <button class="delete">delete</button>
+                        <button class="edit">edit</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+<script src="Assets/project.js"></script>
+</html>

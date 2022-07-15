@@ -1,0 +1,170 @@
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/js/bootstrap.js"></script>
+    <title>{{title}}</title>
+  </head>
+  <body>
+    <!-- nav -->
+    <nav class="navbar bg-white">
+      <div class="container-fluid px-5 py-sm-0">
+        <div class="hstack gap-3">
+          <a class="navbar-brand px-2" href="/index">
+            <img
+              src="assets/images/logo.png"
+              alt=""
+              width="40"
+              height="30"
+              class="d-inline-block align-text-top"
+            />
+          </a>
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index"
+                ><p class="text-body">Home</p></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/add-project"
+                ><p class="text-body">Add Project</p></a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="d-flex">
+          <a class="nav-link" href="/contact">
+            <button class="btn btn-dark" id="btncontactme" type="submit">
+              Contact Me
+            </button></a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-4 py-5" id="card">
+      <div class="row my-5 mx-5">
+        <div class="col-md-5 bg-white offset-2 ps-5" id="cardbox">
+          <h1 class="card-title py-4 mt-5">Hi Welcome to My hut</h1>
+          <p>
+            This is a wider card with supporting text below as a natural lead-in
+            to additional content. This content is a little bit longer. Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. A rem vero modi
+            repellat necessitatibus veritatis dolore alias hic officiis eum ipsa
+            possimus, veniam vitae quam perspiciatis harum? Odio, aut nesciunt.
+          </p>
+          <a
+            href="/contact"
+            class="btn btn-dark my-3 me-2 px-5"
+            id="btncontact"
+            >Contact</a
+          >
+          <a href="" class="card-link text-decoration-none text-black"
+            >Download
+          </a>
+          <a href="#" class="card-link text-decoration-none text-black"
+            ><img
+              src="assets/images/download.png"
+              alt=""
+              width="20"
+              height="20"
+              class="d-inline-block align-text-top"
+          /></a>
+          <br />
+          <div class="sosmed mt-3 mb-5">
+            <img
+              src="assets/images/linkedin.png"
+              class="align-content-center me-3"
+              width="30"
+              height="30"
+            />
+            <img
+              src="assets/images/instagram.png"
+              class="align-content-center me-3"
+              width="30"
+              height="30"
+            />
+            <img
+              src="assets/images/facebook.png"
+              class="align-content-center me-3"
+              width="30"
+              height="30"
+            />
+            <img
+              src="assets/images/twitter.png"
+              class="align-content-center me-3"
+              width="30"
+              height="30"
+            />
+          </div>
+        </div>
+        <div class="col-md-3 bg-white p-2" id="profilbox">
+          <div class="profil mx-5 my-4 mt-5 bg-white" id="profil">
+            <img src="assets/images/poto.png" class="img-fluid" id="foto" />
+            <h6 class="myname text-center pt-2 pb-0 m-0">ADITIA KURNIAWAN</h6>
+            <p class="job text-center pb-2">Fullstack Developer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- myproject -->
+    <div class="container bg-ligth">
+      <a href="/detail " class="text-dark text-decoration-none"
+        ><h1 class="text-center my-5">MY PROJECT</h1></a
+      >
+      <div class="row justify-content-evenly" id="contentProject">
+        <div class="post col-sm-3 p-3 my-5 mx-4 bg-light" id="projects">
+          <img
+            src="assets/images/poto.png"
+            class="img-fluid"
+            id="fotoproject"
+          />
+          <h5 class="project-name pt-2 pb-0 m-0">ADITIA KURNIAWAN</h5>
+          <p class="duration text-secondary">durasi : 3 bulan</p>
+          <p class="descrition justify-content-around">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dolores
+            doloremque hic quam
+          </p>
+          <div class="tech my-3" id="icontech">
+            <img
+              src="assets/images/javascript.png
+          "
+              class="img-fluid"
+              width="30"
+              height="30"
+            />
+            <img
+              src="assets/images/nodejs.png
+          "
+              class="img-fluid"
+              width="30"
+              height="30"
+            />
+            <img
+              src="assets/images/bootstrap.png
+          "
+              class="img-fluid"
+              width="30"
+              height="30"
+            />
+            <img
+              src="assets/images/html5.png
+          "
+              class="img-fluid"
+              width="30"
+              height="30"
+            />
+          </div>
+          <div class="justify-content-center">
+            <a href="Contact.html" class="btn btn-dark my-3 px-5 py-0 me-2">
+              Edit
+            </a>
+            <a href="Contact.html" class="btn btn-dark my-3 px-5 py-0 me-0">
+              Delete
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,87 @@
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/contact.js"></script>
+    <title>{{title}}</title>
+  </head>
+  <body>
+    <!-- nav -->
+    <nav class="navbar bg-white">
+      <div class="container-fluid px-5 py-sm-0">
+        <div class="hstack gap-3">
+          <a class="navbar-brand px-2" href="/index">
+            <img
+              src="assets/images/logo.png"
+              alt=""
+              width="40"
+              height="30"
+              class="d-inline-block align-text-top"
+            />
+          </a>
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index"
+                ><p class="text-body">Home</p></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/add-project"
+                ><p class="text-body">Add Project</p></a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="d-flex">
+          <a class="nav-link" href="/contact">
+            <button class="btn btn-dark" id="btncontact" type="submit">
+              Contact Me
+            </button></a
+          >
+        </div>
+      </div>
+    </nav>
+    <!-- uform -->
+    <div class="container-fluid" id="contactform">
+      <!-- fom -->
+      <form class="row g-3 p-5">
+        <h1 class="text-center mb-5">GET IN TOUCH</h1>
+        <div class="col-md-6 offset-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" aria-label="Name" id="name" />
+        </div>
+        <div class="col-md-6 offset-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" />
+        </div>
+        <div class="col-md-6 offset-3">
+          <label for="phone" class="form-label">Phone Number</label>
+          <input type="text" class="form-control" id="phone" />
+        </div>
+        <div class="col-md-6 offset-3">
+          <label for="subjectForm" class="form-label">Subject</label>
+          <select id="subjectForm" class="form-control">
+            <option selected>Choose...</option>
+            <option>Lets Talk</option>
+            <option>Lets Collaboration</option>
+            <option>Lets Create Project</option>
+          </select>
+        </div>
+        <div class="col-md-6 offset-3">
+          <div class="mb-3">
+            <label for="message" class="form-label">Massage</label>
+            <textarea class="form-control" id="message" rows="3"></textarea>
+          </div>
+        </div>
+        <div class="col-md-6 offset-3">
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button type="button" class="btn btn-dark" onclick="{getData()}">
+              Submit
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
