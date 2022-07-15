@@ -4,6 +4,8 @@ app.set("view engine", "hbs");
 
 // static folder
 app.use(express.static("public"));
+//body parser
+app.use(express.urlencoded({ extended: false }));
 
 app.get("/index", function (req, res) {
   let title = "Project Blog";
@@ -20,11 +22,6 @@ app.get("/add-project", function (req, res) {
   res.render("addproject", { title });
 });
 
-app.get("/detail", function (req, res) {
-  let title = "Detail";
-  res.render("detail", { title });
-});
-
 app.post("/project", function (req, res) {
   let { projectname, description } = req.body;
 
@@ -37,7 +34,7 @@ app.post("/project", function (req, res) {
 app.get("/project/:id", function (req, res) {
   let id = req.params.id;
   console.log(`Id params : ${id}`);
-  res.render("detail", { author: data[id] });
+  res.render("detail", { id });
 });
 
 app.listen(3000, function () {
