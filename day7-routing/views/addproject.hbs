@@ -45,7 +45,7 @@
     <!-- uform -->
     <div class="container-fluid bg-light">
       <!-- fom -->
-      <form class="row g-3 p-5" onsubmit="projectSubmit(event)">
+      <form class="row g-3 p-5" action="/project" method="POST" >
         <h1 class="text-center mb-5">ADD MY PROJECT</h1>
         <div class="col-md-6 offset-3">
           <label for="inputname" class="form-label">Project Name</label>
@@ -54,6 +54,7 @@
             class="form-control"
             id="projectname"
             aria-describedby="projectname"
+            name="projectname"
           />
         </div>
         <div class="col-md-6 offset-3">
@@ -70,7 +71,7 @@
         </div>
         <div class="col-md-6 offset-3">
           <label for="Description" class="form-label"> Description </label>
-          <textarea class="form-control" id="Description" rows="3"> </textarea>
+          <textarea class="form-control" id="Description" rows="3" name="description"> </textarea>
         </div>
         <div class="col-md-6 offset-3">
           <p class="ms-0">Technologies</p>

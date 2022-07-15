@@ -25,6 +25,21 @@ app.get("/detail", function (req, res) {
   res.render("detail", { title });
 });
 
+app.post("/project", function (req, res) {
+  let { projectname, description } = req.body;
+
+  console.log(req.body);
+  console.log(projectname, description);
+
+  res.redirect("/index");
+});
+
+app.get("/project/:id", function (req, res) {
+  let id = req.params.id;
+  console.log(`Id params : ${id}`);
+  res.render("detail", { author: data[id] });
+});
+
 app.listen(3000, function () {
   console.log("server ini jalan diport 3000");
 });
